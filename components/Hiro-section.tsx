@@ -9,6 +9,7 @@ import {
   BiMessageRoundedDots,
   CiTwitter
 } from "./ui/icons";
+import Image from "next/image";
 
 
 import { TextGenerateEffect } from "./ui/text-generate-effect";
@@ -59,7 +60,7 @@ const HiroSection = () => {
 
               <div className="pt-16">
                 <h1 className="text-4xl text-white sm:text-5xl lg:text-6xl xl:text-5xl font-bold">
-                  <span>Hi, I'm Soleymannzhad</span>
+                  <span>Hi, I&apos;m Soleymannzhad</span>
                 </h1>
                 <div>
                   <span className="custoooom">Front-end Development</span>
@@ -131,9 +132,12 @@ const HiroSection = () => {
             </div>
 
             <div className="relative">
-              <img
+           
+               <Image
                 className="relative md:absolute bottom-0 right-0 w-full max-w-md mx-auto "
-                src="./mohammad.png"
+              width={500}
+              height={500}
+                src="/mohammad.png"
                 alt="Illustration"
               />
             </div>

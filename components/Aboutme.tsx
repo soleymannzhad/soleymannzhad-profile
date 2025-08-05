@@ -6,17 +6,13 @@ import {
   LuSendHorizontal,
 } from "./ui/icons";
 import ButtonSite from "./ui/buttonsite";
-
-const boxVariants = {
-  hidden: { opacity: 0, y: 50 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.01 } },
-};
+import Image from "next/image";
 
 export default function Aboutme() {
   return (
     <>
       <section className=" relative pt-16 scroll-mt-[100px] min-h-screen flex items-center">
-        <div className="container"  id="about">
+        <div className="container" id="about">
           <div className="text-center">
             <span className="block text-colortheme2">My intro</span>
             <span className="block font-bold text-4xl">About me</span>
@@ -26,10 +22,14 @@ export default function Aboutme() {
             {/* قسمت عکس سمت چپ  */}
             <div>
               <div className="bg-colortheme1 rounded-xl">
-                <img
-                  className=" w-full max-w-md mx-auto "
-                  src="./mohammad.png"
-                  alt="Illustration"
+             
+
+                <Image
+                  src="/mohammad.png"
+                  alt="soleymannzhad"
+                  width={500}
+                  height={500}
+                  className="w-full max-w-md mx-auto"
                 />
               </div>
             </div>
@@ -38,7 +38,7 @@ export default function Aboutme() {
             <div>
               <div className="md:px-8">
                 <span className="block font-bold text-2xl pb-7">
-                  I'm Soleymannzhad, an Iranian from Mashhad.
+                  I&apos;m Soleymannzhad, an Iranian from Mashhad.
                 </span>
                 <p className="text-gray-400 text-justify">
                   My expertise is in web development, mainly front-end

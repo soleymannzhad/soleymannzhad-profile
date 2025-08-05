@@ -1,8 +1,11 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { AiOutlineShareAlt } from "react-icons/ai";
 import { Link } from "react-scroll";
+  import Image from 'next/image';
+
+
 
 
 export default function Header() {
@@ -18,7 +21,13 @@ export default function Header() {
         <div className="flex justify-between md:block">
           <div className="shrink-0">
             <a href="#" title="" className=" text-white">
-              <img src="./logoMS.png" alt="logo"  className='w-14 bg-colortheme2 rounded-full'/>
+
+              <Image
+               src="/logoMS.png"
+               alt="logo" 
+               width={56}
+               height={56}
+               className='w-14 bg-colortheme2 rounded-full'/>
             </a>
           </div>
           {/* Mobile menu button */}
