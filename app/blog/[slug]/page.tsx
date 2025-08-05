@@ -1,8 +1,8 @@
-interface CategoriesProps {
+type CategoriesProps = {
   params: {
     slug: string;
   };
-}
+};
 
 export default function Categories({ params }: CategoriesProps) {
   const { slug } = params;
