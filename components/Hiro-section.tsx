@@ -60,7 +60,7 @@ const HiroSection = () => {
 
               <div className="pt-16">
                 <h1 className="text-4xl text-white sm:text-5xl lg:text-6xl xl:text-5xl font-bold">
-                  <span>Hi, I&apos;m Soleymannzhad</span>
+                  <span>Hiiii, I&apos;m Soleymannzhad</span>
                 </h1>
                 <div>
                   <span className="custoooom">Front-end Development</span>
