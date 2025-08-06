@@ -17,7 +17,7 @@ export default function Journey() {
 
           {/* قسمت دو ستون این بخش  */}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-16 md:mx-40">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-16 md:mx-36">
             {/* گرید سمت چپ  */}
 
             <div>
@@ -142,7 +142,7 @@ export default function Journey() {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
