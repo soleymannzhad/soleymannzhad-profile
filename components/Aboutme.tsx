@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function Aboutme() {
   return (
     <>
-      <section className=" relative pt-16 scroll-mt-[100px] min-h-screen flex items-center">
+      <section className=" relative mb-16 scroll-mt-[100px] min-h-screen flex items-center">
         <div className="container" id="about">
           <div className="text-center">
             <span className="block text-colortheme2">My intro</span>

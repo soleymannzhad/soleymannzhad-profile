@@ -17,7 +17,7 @@ import ButtonSite from "./ui/buttonsite";
 
 const HiroSection = () => {
   return (
-    <section id="home" className=" flex items-center bg-colortheme1 min-h-screen">
+    <section id="home" className=" flex items-center bg-colortheme1 min-h-screen mb-16">
       <div className="relative pt-24 md:pt-10 container">
         <div className="relative">
           <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 lg:grid-cols-[3fr_2fr] gap-x-16">
