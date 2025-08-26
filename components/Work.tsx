@@ -40,7 +40,7 @@ const projects: Project[] = [
     image: "/p-2.jpg",
     description:
       "This is my personal project, implemented using the latest global technologies, intended for portfolio presentation.",
-     features: [
+    features: [
       "Created - 18 June 2025",
       "Technology - React , Next.js , Tailwindcss , HTML ",
       "Role - Frontend",
@@ -147,16 +147,24 @@ export default function Work() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 mt-24"
+                className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 "
               >
                 <motion.div
-  initial={{ scale: 0.8, opacity: 0 }}
-  animate={{ scale: 1, opacity: 1 }}
-  exit={{ scale: 0.8, opacity: 0 }}
-  transition={{ duration: 0.3 }}
-  className="relative bg-colortheme1 rounded-lg p-6 max-w-5xl w-full
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  exit={{ scale: 0.8, opacity: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="relative bg-colortheme1 rounded-lg p-6 max-w-5xl w-full
              max-h-[90vh] overflow-y-auto"
->
+                >
+                  <div className="py-6 md:py-0">
+                    <button
+                      onClick={() => setSelectedProject(null)}
+                      className="md:absolute top-3.5 right-4 p-2"
+                    >
+                      <RxCross2 className="text-colortheme2 text-xl" />
+                    </button>
+                  </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
                     <div className="flex items-center">
                       <img
@@ -217,13 +225,6 @@ export default function Work() {
                       )}
                     </div>
                   </div>
-
-                  <button
-                    onClick={() => setSelectedProject(null)}
-                    className="absolute top-3.5 right-4 p-2"
-                  >
-                    <RxCross2 className="text-colortheme2 text-xl" />
-                  </button>
                 </motion.div>
               </motion.div>
             )}
