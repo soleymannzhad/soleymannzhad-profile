@@ -7,6 +7,10 @@ import { LiaAwardSolid } from "react-icons/lia";
 import { RiCalendarCheckLine } from "react-icons/ri";
 import { PiStudentLight } from "react-icons/pi";
 import { FaAngleRight } from "react-icons/fa6";
+import { TiArrowRight } from "react-icons/ti";
+import { RxCross2 } from "react-icons/rx";
+
+
 
 
 
@@ -35,6 +39,8 @@ export {
   FaCode,
   FaPaintBrush,
   FaServer,
-  FaAngleRight
+  FaAngleRight,
+  TiArrowRight,
+  RxCross2
 
 };

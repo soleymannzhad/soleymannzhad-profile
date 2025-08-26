@@ -2,6 +2,7 @@ import HiroSection from "@/components/Hiro-section";
 import Aboutme from "@/components/Aboutme";
 import Journey from "@/components/Journey";
 import Skills from "@/components/Skills";
+import Work from "@/components/Work";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Aboutme />
       <Journey />
       <Skills />
+      <Work />
     </main>
   );
 }

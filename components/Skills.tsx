@@ -50,15 +50,19 @@ export default function Skills() {
       { skill: "CSS", percent: 60 },
       { skill: "React", percent: 40 },
       { skill: "JavaScript", percent: 55 },
+      { skill: "Bootstrap", percent: 80 },
+      { skill: "Tailwind CSS", percent: 65 },
+      { skill: "Elementor", percent: 85 },
+      { skill: "Next.js", percent: 60 },
     ],
     uiux: [
       { skill: "Figma", percent: 60 },
       { skill: "Photoshop", percent: 75 },
     ],
     backend: [
-      { skill: "PHP", percent: 75 },
-      { skill: "MySQL", percent: 70 },
-      { skill: "Next.js", percent: 60 },
+      { skill: "PHP", percent: 65 },
+      { skill: "MySQL", percent: 60 },
+      { skill: "WordPress", percent: 85 },
     ],
   };
 
