@@ -63,7 +63,7 @@ export default function Skills() {
   };
 
   return (
-    <section className="relative mb-16 scroll-mt-[100px] min-h-screen">
+    <section className="relative mb-16 md:mb-0 scroll-mt-[100px] min-h-screen">
       <div className="container" id="skills">
         <div className="text-center">
           <span className="block text-colortheme2">My Abilities</span>
