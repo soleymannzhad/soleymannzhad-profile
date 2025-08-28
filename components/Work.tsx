@@ -8,7 +8,7 @@ type Project = {
   id: number;
   title: string;
   title_popup: string;
-  category: "web" | "app";
+  category: "web" | "support";
   image: string;
   description: string;
   features: string[]; // لیست ویژگی‌ها
@@ -19,6 +19,21 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
+    title: "Web design",
+    title_popup: "Personal project for portfolio presentation",
+    category: "web",
+    image: "/p-2.jpg",
+    description:
+      "This is my personal project, implemented using the latest global technologies, intended for portfolio presentation.",
+    features: [
+      "Created - 18 June 2025",
+      "Technology - React , Next.js , Tailwindcss , HTML ",
+      "Role - Frontend",
+    ],
+    website: "https://soleymannzhad.ir",
+  },
+  {
+    id: 2,
     title: "Web design",
     title_popup: "Security Systems E-Commerce Website",
     category: "web",
@@ -33,39 +48,70 @@ const projects: Project[] = [
     website: "https://sabasystemcctv.com",
   },
   {
-    id: 2,
+    id: 3,
     title: "Web design",
-    title_popup: "Personal project for portfolio presentation",
+    title_popup: "Design and implementation of an English landing page",
     category: "web",
-    image: "/p-2.jpg",
+    image: "/p-9.jpg",
     description:
-      "This is my personal project, implemented using the latest global technologies, intended for portfolio presentation.",
-    features: [
-      "Created - 18 June 2025",
-      "Technology - React , Next.js , Tailwindcss , HTML ",
+      "Implementation of a complete English landing page, from start to finish, as requested by the esteemed client, for a website in the coaching and psychology field.",
+    features:[
+      "Created - 22 May 2025",
+      "Technology - HTML , Css , JavaScript , WordPress , php",
       "Role - Frontend",
     ],
-    website: "https://soleymannzhad.ir",
+    website: "https://rai-mana.com/en",
   },
-  // {
-  //   id: 2,
-  //   title: "اپلیکیشن موبایل آموزش",
-  //   title_popup: "project Saba",
-  //   category: "app",
-  //   image: "https://via.placeholder.com/400x250?text=App+Education",
-  //   description: "اپلیکیشن آموزش زبان برای موبایل، با طراحی ساده و کاربرپسند.",
-  // },
-  // {
-  //   id: 3,
-  //   title: "وب‌سایت شرکتی",
-  //   category: "web",
-  //   image: "https://via.placeholder.com/400x250?text=Corporate+Site",
-  //   description: "سایت شرکتی با طراحی مدرن و ریسپانسیو برای معرفی خدمات.",
-  // },
+   {
+    id: 4,
+    title: "support",
+    title_popup: "Full project support and development",
+    category: "support",
+    image: "/p-8.jpg",
+    description:
+      "Complete support and development of an e-commerce website in the field of tools and hardware sales.",
+    features:[
+      "Created - 28 March 2024",
+      "Technology - HTML , Css , JavaScript , WordPress , php",
+      "Role - Frontend , Backend",
+    ],
+    website: "https://olamaee.com",
+  },
+  {
+    id: 5,
+    title: "Web design",
+    title_popup: "Design and implementation of a food website",
+    category: "web",
+    image: "/p-7.jpg",
+    description:
+      "Design, implementation, and development of a fully responsive, custom e-commerce website in the food industry.",
+    features:[
+      "Created - 3 April 2024",
+      "Technology - HTML , Css , Eelementor , JavaScript , WordPress , php",
+      "Role - Frontend , Backend",
+    ],
+    website: "https://bealavehfood.ir",
+  },
+   {
+    id: 6,
+    title: "support",
+    title_popup: "Full support and development of a website from start to finish",
+    category: "support",
+    image: "/p-4.jpg",
+    description:
+      "Complete front-end and back-end support and development of an e-commerce website project in the coaching and psychology field.",
+    features:[
+      "Created - 2 August 2025",
+      "Technology - HTML , Css , Eelementor , JavaScript , WordPress , php",
+      "Role - Frontend , Backend",
+    ],
+    website: "https://bealavehfood.ir",
+  },
+  
 ];
 
 export default function Work() {
-  const [activeTab, setActiveTab] = useState<"all" | "web" | "app">("all");
+  const [activeTab, setActiveTab] = useState<"all" | "web" | "support">("all");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const filteredProjects =
@@ -84,10 +130,10 @@ export default function Work() {
         <div className="p-8">
           {/* تب‌ها */}
           <div className="flex gap-4 mb-8 justify-center">
-            {["all", "web", "app"].map((tab) => (
+            {["all", "web", "support"].map((tab) => (
               <button
                 key={tab}
-                onClick={() => setActiveTab(tab as "all" | "web" | "app")}
+                onClick={() => setActiveTab(tab as "all" | "web" | "support")}
                 className={`px-4 py-2 rounded-xl font-medium transition ${
                   activeTab === tab
                     ? "bg-colortheme2 text-white"
@@ -183,7 +229,7 @@ export default function Work() {
                         Featured –
                         {selectedProject.category === "web"
                           ? "Web Design"
-                          : "App Design"}
+                          : " Support"}
                       </div>
 
                       {/* عنوان */}
