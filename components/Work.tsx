@@ -27,26 +27,31 @@ const projects: Project[] = [
       "This is my personal project, implemented using the latest global technologies, intended for portfolio presentation.",
     features: [
       "Created - 18 June 2025",
-      "Technology - React , Next.js , Tailwindcss , HTML ",
+      "Technology - React , Next.js , Tailwindcss , HTML , css ",
       "Role - Frontend",
     ],
     website: "https://soleymannzhad.ir",
   },
-  {
+
+ {
     id: 2,
     title: "Web design",
-    title_popup: "Security Systems E-Commerce Website",
+    title_popup: "Design and implementation of a food website",
     category: "web",
-    image: "/p-1.jpg",
+    image: "/p-7.jpg",
     description:
-      "The Sabaa System project has been active for years in the field of security systems and CCTV cameras, and it has been fully implemented from scratch with a custom approach.",
+      "Design, implementation, and development of a fully responsive, custom e-commerce website in the food industry.",
     features: [
-      "Created - 29 July 2024",
-      "Technology - HTML , Css , JavaScript , WordPress",
-      "Role - Frontend",
+      "Created - 3 April 2024",
+      "Technology - HTML , Css , Eelementor , JavaScript , WordPress , php , jet Engine",
+      "Role - Frontend , Backend",
     ],
-    website: "https://sabasystemcctv.com",
+    website: "https://bealavehfood.ir",
   },
+
+
+
+  
   {
     id: 3,
     title: "Web design",
@@ -55,14 +60,14 @@ const projects: Project[] = [
     image: "/p-9.jpg",
     description:
       "Implementation of a complete English landing page, from start to finish, as requested by the esteemed client, for a website in the coaching and psychology field.",
-    features:[
+    features: [
       "Created - 22 May 2025",
       "Technology - HTML , Css , JavaScript , WordPress , php",
       "Role - Frontend",
     ],
     website: "https://rai-mana.com/en",
   },
-   {
+  {
     id: 4,
     title: "support",
     title_popup: "Full project support and development",
@@ -70,44 +75,97 @@ const projects: Project[] = [
     image: "/p-8.jpg",
     description:
       "Complete support and development of an e-commerce website in the field of tools and hardware sales.",
-    features:[
+    features: [
       "Created - 28 March 2024",
       "Technology - HTML , Css , JavaScript , WordPress , php",
       "Role - Frontend , Backend",
     ],
     website: "https://olamaee.com",
   },
-  {
+
+
+{
     id: 5,
     title: "Web design",
-    title_popup: "Design and implementation of a food website",
+    title_popup: "Security Systems E-Commerce Website",
     category: "web",
-    image: "/p-7.jpg",
+    image: "/p-1.jpg",
     description:
-      "Design, implementation, and development of a fully responsive, custom e-commerce website in the food industry.",
-    features:[
-      "Created - 3 April 2024",
-      "Technology - HTML , Css , Eelementor , JavaScript , WordPress , php",
-      "Role - Frontend , Backend",
+      "The Sabaa System project has been active for years in the field of security systems and CCTV cameras, and it has been fully implemented from scratch with a custom approach.",
+    features: [
+      "Created - 29 July 2024",
+      "Technology - HTML , Css , JavaScript , WordPress , php , jet Engine ",
+      "Role - Frontend",
     ],
-    website: "https://bealavehfood.ir",
+    website: "https://sabasystemcctv.com",
   },
-   {
+
+
+
+ 
+
+
+
+  {
     id: 6,
     title: "support",
-    title_popup: "Full support and development of a website from start to finish",
+    title_popup: "Full-scale technical development, support, and SEO",
     category: "support",
     image: "/p-4.jpg",
     description:
-      "Complete front-end and back-end support and development of an e-commerce website project in the coaching and psychology field.",
-    features:[
-      "Created - 2 August 2025",
-      "Technology - HTML , Css , Eelementor , JavaScript , WordPress , php",
+      "I manage a fully custom-coded coaching and psychology e-commerce site, including development, technical, and SEO support.",
+    features: [
+      "Created - 28 December 2023",
+      "Technology - HTML , Css , JavaScript , WordPress , php , CMB2",
       "Role - Frontend , Backend",
     ],
-    website: "https://bealavehfood.ir",
+    website: "https://rai-mana.com",
   },
-  
+    {
+    id: 7,
+    title: "Web design",
+    title_popup: "Design and implementation of a dairy and ice cream factory website",
+    category: "web",
+    image: "/p-3.jpg",
+    description:
+      "Fully custom website implementation with scalability, available in both Persian and Arabic.",
+    features: [
+      "Created - 15 December 2024",
+      "Technology - HTML , Css , JavaScript , WordPress , php , jet Engine",
+      "Role - Frontend , Backend",
+    ],
+    website: "https://shavis.ir",
+  },
+    {
+    id: 8,
+    title: "Web design",
+    title_popup: "Custom-built and scalable corporate website implementation",
+    category: "web",
+    image: "/p-5.jpg",
+    description:
+      "This website is fully custom-built with complete scalability and is available in Arabic, English, and Persian.",
+    features: [
+      "Created - 28 December 2023",
+      "Technology - HTML , Css , JavaScript , WordPress , php , jet Engine",
+      "Role - Frontend , Backend",
+    ],
+    website: "https://bealaveh.com",
+  },
+  {
+    id: 9,
+    title: "Web design",
+    title_popup: "Implementation of a personal website for consulting",
+    category: "web",
+    image: "/p-6.jpg",
+    description:
+      "Implementation of a personal website for digital marketing consulting, available in both Persian and English.",
+    features: [
+      "Created - 28 December 2023",
+      "Technology - HTML , Css , JavaScript , WordPress , php , jet Engine",
+      "Role - Frontend , Backend",
+    ],
+    website: "https://hamidrezaazizi.com",
+  },
 ];
 
 export default function Work() {

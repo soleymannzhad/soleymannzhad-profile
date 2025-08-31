@@ -75,7 +75,7 @@ const HiroSection = () => {
 
               {/* دکمه درباره من در هیرو سکشن  */}
               <div className="my-10">
-                <ButtonSite>
+                <ButtonSite href="#journey">
                   <LuUserRound className="inline-block text-2xl" />
                   <span>More About Me :</span>
                 </ButtonSite>

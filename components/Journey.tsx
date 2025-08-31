@@ -7,8 +7,8 @@ import {
 export default function Journey() {
   return (
     <>
-      <section className=" relative mb-16  scroll-mt-[100px] min-h-screen">
-        <div className="container ">
+      <section className=" relative mb-16  scroll-mt-[100px] min-h-screen" >
+        <div className="container " id="journey">
           {/* قسمت هدر */}
           <div className="text-center">
             <span className="block text-colortheme2">My journey</span>
