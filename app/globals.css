@@ -115,6 +115,10 @@ h6 {
   .container {
     padding-left: 1rem;
   }
+  .active-link::after{
+    left: 15px;
+    bottom: -4px;
+  }
 }
 
 * {
